@@ -89,5 +89,5 @@ networks:
     driver: bridge
     name: net_kafka
   service-hub:
-    driver: bridge
     name: service-hub
+    external: true
